@@ -1,0 +1,1282 @@
+@font-face {
+    font-family: "GoogleSans";
+    src: url(fonts/GoogleSans-Medium.ttf);
+    font-family: "GoogleSansRegular";
+    src: url(fonts/ProductSans-Regular.ttf);
+    font-family: "GoogleSansBold",sans-serif;
+    src: url(fonts/ProductSans-Bold.ttf);
+    font-family: "RobotoRegular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans", sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    margin-top: 36px;
+}
+.logo{  
+    float: left;
+}
+.logo img{
+   width: 104px;
+   height: 18px;
+   margin-left: 124px;
+
+}
+.navigation{
+    float: left;
+
+    margin-left: 335px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+
+    text-decoration: none;
+    color: #2C2D30;
+    margin-left: 18px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+li i{
+    margin-left: 10px;
+}
+.magni-glass{
+    float: left;
+    display: block;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: -2px;
+    color: rgb(58, 56, 56);
+}
+.shop-phones{
+    width: 190px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid black;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(35, 33, 33);
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 35px;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.shop-phones a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 23px;
+    margin-top: 15px;
+    font-family: "GoogleSansBold"sans-serif;
+    font-weight: bold;
+}
+.shop-phones img{
+    width: auto;
+    height: 20px;
+    float: left;
+    margin-left: -10px;
+}
+.shop-phones:hover{
+    background-color: white;
+    border: 1px solid black;
+    background-position: left;
+}
+.shop-phones:hover a{
+    color: black;
+    background-position: left;
+}
+.shop-phones:hover img{
+    filter: brightness(0%);
+}
+.main-banner{
+    clear: both;
+}
+.banner{
+    margin-top: 19px;
+    margin-left: 37px;
+    position: relative;
+}
+.android{
+    margin-top: -6px;
+    margin-left: 687px;
+}
+.banner-text{
+    position: absolute;
+    top: 60%;
+    left: 232px;
+    font-size: 56px;
+    color: #fff;
+}
+.banner-text p{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    align-content: center;
+    padding-left: 20px;
+    background: linear-gradient(to left, white 50%, rgb(233, 227, 227) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.banner-text i{
+    position: absolute;
+    margin-top: 1px;
+    font-size: 20px;
+    align-content: center;
+    margin-left: 8px;
+}
+.main-banner a :hover{
+    background-color: #b2b3b8;
+    background-position: left;
+}
+.main-container{
+    margin-left: 120px;
+}
+.mimage1{
+    position: relative;
+    border-radius: 40px;
+}
+.mimage1-text{
+    position: absolute;
+    top: 170%;
+    bottom: 0;
+    left: 232px;
+    right: 0;
+    font-family: "GoogleSansBold"sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+}
+.mimage1-text a{
+    text-decoration: none;
+    color: rgb(33, 32, 32);
+}
+.gemini{
+    background-image: linear-gradient(70deg,#217bfe 2%,#078efb 2%,#ac87eb 10%,#e25d6a 15%); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 56px;
+    margin-top: -123px;
+    margin-left: 126px;
+}
+.main1 .shop-phones{
+    position: absolute;
+    top: 213%;
+    left: 13%;
+}
+.main2{
+    margin-top: 81px;
+}
+.mimage2{
+    position: relative;
+    border-radius: 40px; 
+}
+.mimage2-text{
+    position: absolute;
+    top: 285%;
+    bottom: 0;
+    left: 232px;
+    right: 0;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    line-height: 80px;
+    letter-spacing: -2px;
+}
+.explore{
+    width: 143px;
+    height: 50px;
+    position: absolute;
+    top: 323%;
+    left: 232px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 40px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(247, 247, 247) 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    color: black;
+}
+.explore:hover{
+    background-color: white;
+    border: 1px solid black;
+    background-position: left;
+}
+.explore:hover .icon_main2{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.explore:not(:hover) .icon_main2{
+    animation: move-down-disappear 0.4s ease-in-out;  
+}
+.explore p{
+    font-size: 16px;
+}
+.explore svg{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+ .main3{
+    margin-top: 81px;
+    position: relative;
+ }
+ .mimage3{
+    width: 1280px;
+    height: 670px;
+    object-fit: cover;  
+    position: absolute;
+    border-radius: 25px;
+    object-position: 25% 10%;
+}
+.overlay-image{
+    width: 1230px;
+    height: 600px;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    object-position: 25% 25%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+.mask{
+    position: absolute;
+    top: 80px;
+    left: 32%;
+    width: 320px;
+    height: 558px;
+    mask-image: url(images/rectangle-mask.png);
+    background: linear-gradient(blue);
+    border-radius: 25px;
+}
+.mimage3-child{
+    position: absolute;
+    width: 330px;
+    height: 558px;
+    object-fit: cover;
+}
+.fourteen{
+    position: absolute;
+    top: 250px;
+    left: 39%;     
+    color: white;
+    font-family: "GoogleSansBold",sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    background-color: #ADADE4;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fourteen img{
+    width: auto;
+    height: 100px;
+}
+.mimage3-text{
+    position: absolute;
+    color: white;
+    font-size: 72px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+
+    top: 190px;
+    left: 100px;
+    letter-spacing: -3px;
+}
+.new-android{
+    width: 306px;
+    height: 53px;
+    position: absolute;
+    top: 400px;
+    left: 95px;
+    background-color: #d6d6e1;
+    border-radius: 40px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;  
+    background: linear-gradient(to left, rgb(193, 208, 233) 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.new-android img{
+    position: absolute;
+    height: 20px;
+    margin-left: 8px;
+    filter: brightness(0%);
+}
+.new-android:hover{
+    background-color: white;
+    border: 1px solid black;
+    background-position: left;
+}
+.new-android p{
+    font-size: 16px;
+    color: black;
+}
+.main4{
+    margin-top: 60%;
+    position: relative;
+}
+.mimage4{
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.main4-text{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;  
+    color: rgb(32, 30, 30);
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+}
+.explorenow{
+    width: 177px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(34, 33, 33);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;color: white;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    letter-spacing: normal;
+    border: 1px solid black;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200%;
+    margin-top: -40px;
+    transition: .5s ease-out;
+}
+.explorenow p{
+    position: absolute;
+    margin-top: -14px;
+    margin-left: 30px;
+}
+.explorenow img{
+    position: absolute;
+    width: auto;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.explorenow:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    background-position: left;
+}
+.explorenow:hover a{
+    color: black;
+    background-position: left;
+}
+.explorenow:hover img{
+    filter: brightness(0%);
+    background-position: left;
+}
+.main5{
+    width: 1280px;
+    height: 740px;
+    position: relative;
+    top: 880px;
+}
+.main5image{
+    width: 1280px;
+    height: 740px;
+    border-radius: 40px;
+    position: absolute;
+}
+.card{
+    width: 517px;
+    height: 236px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);    
+}
+.card{
+    height: 250px;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px
+}
+.card img{
+    width: 517px;
+    height: 349px;
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.card p{
+    color: rgb(33, 32, 32);
+    font-size: 16px;    padding: 10px 16px; 
+    margin-top: 30px;
+   
+}
+.card p:nth-child(2){
+    font-size: 32px;    padding: 2px 16px; 
+    margin-top: 20px;
+    color: #292a2d;
+    letter-spacing: 0px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+}
+.add-icon{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid black;
+    top: 30px;
+    left: 430px;
+    background: linear-gradient(to left, white 50%, #e0e0e1 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out; 
+}
+.add-icon img{
+    width: 48px;
+    height: 48px;  
+}
+.card:hover .add-icon{
+    background-color: rgb(237, 236, 236);
+    background-position: left;
+}
+.inside-div{
+    position: absolute;
+    top: 200px; 
+    left: 100px;   
+}
+.inside-div p{
+    font-size: 56px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.see-whatsnew{
+    width: 200px;
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.main5 .new-android{
+    width: 177px;
+    background: linear-gradient(to left, #dde0db 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.main5 .new-android:hover{
+    background-position: left;
+}
+.see-whatsnew p{
+    background-color: rgb(194, 191, 191);
+    border-radius: 25px;
+    padding: 15px;
+    color: black;
+}
+.see-whatsnew:hover{
+    background-color: white;
+    border: 1px solid black;
+    background-position: left;
+}
+.see-whatsnew img{
+    position: absolute;
+    height: 20px;
+    filter: brightness(0%);
+    margin-left: 10px;
+}
+.main6{
+    position: relative;
+    margin-top: 68%;
+}
+.main6 video{
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+}
+.main6-txtcontainer p{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    color: white;
+    font-size: 72px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    line-height: 80px;
+}
+.gtstarted{
+    position: absolute;
+}
+.gtstarted{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    text-decoration: none;
+    top: 380px;
+    left: 100px;background-color: rgb(27, 26, 26);
+    border-radius: 25px;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.gtstarted p{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    left: 20px;
+    top: -2px;
+}
+.gtstarted img{
+    position: absolute;
+    height: 20px;
+    top: 13px;
+    left: 115px;
+}
+.gtstarted:hover{
+    background-color: white;
+    background-position: left;
+}
+.gtstarted:hover p{
+    color: black;
+    background-position: left;
+}
+.gtstarted:hover img{
+    filter: brightness(0%);
+    background-position: left;
+}
+.flex-container{
+    margin-top: 130%;
+    color: black;
+}
+.flex-container h1{
+    color: black;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;   
+}
+.flex-image{
+    display: flex;
+    width: 33.3%;
+}
+.flex-image img{
+    width: 326px;
+    height: 190px;   
+}
+.section1{
+    height: 350px;
+    background-color: #FBEBE2;
+    border-radius: 30px;
+    padding: 40px;
+}
+.flex-image h1{
+    font-size: 24px;
+}
+.section2{
+    height: 350px;
+    background-color: #E8F5E9;
+    border-radius: 30px;
+    margin-left: 28px;
+    padding: 40px;
+}
+.flex-image p{
+    font-size: 16px;
+    text-align: center;
+    font-family: "GoogleSansRegular",sans-serif;   
+}
+.section3{
+    height: 350px;
+    background-color: #E2F2FF;
+    border-radius: 30px;
+    margin-left: 28px;
+    padding: 40px;
+}
+.section1{
+    position: relative; 
+}
+.section1 a{
+    float: left;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, #FBEBE2 50%, #E2F2FF 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.section1 a:hover{
+    background-color: #cdd5dc;
+    background-position: left;
+}
+.section2 a{
+    float: left;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, #E8F5E9 50%, #f2ebe6 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.section2 a:hover{
+    background-color: #cdd5dc;
+    background-position: left;
+}
+.section3 a{
+    float: left;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left, #E2F2FF 50%, #d4d0cc 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.section3 a:hover{
+    background-color: #cdd5dc;
+    background-position: left;
+}
+.flex-image a img{
+    width: 20px;
+    height: 20px;
+    position: absolute;   
+    background-position: left; 
+}
+.flex-image .section2 a:hover{
+    background-color: #FBEBE2;
+}
+.flex-image .section3 .hover{
+    background-color: #E8F5E9;
+}
+.flex-image1{
+    display: flex;
+}
+.flex-image1 img{
+    width: 326px;
+    height: 190px;
+}
+.section4 h1{
+    font-size: 24px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.section5 h1{
+    font-size: 24px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    text-align: center;
+}
+.section6 h1{
+    font-size: 24px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.flex-container1 p{
+    font-family: "GoogleSansRegular",sans-serif;
+    font-size: 14px;
+    margin-left: 100px;
+}
+.flex-image1 a img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: absolute;
+}
+.flex-container1 a:hover{
+    background-color: #cdd5dc;
+}
+.section4 a{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    background: linear-gradient(to left, #FEF8E9 50%, #cfdae0 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.section4 a:hover{
+    background-color: #cdd5dc;
+    background-position: left;
+}
+.section5 a{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    background: linear-gradient(to left, #E2F2FF 50%, #ede4db 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out; 
+}
+.section5 a:hover{
+    background-color: #FBEBE2;
+    background-position: left;
+}
+.section6 a{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    background: linear-gradient(to left, #E2F2FF 50%, #d0ded8 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out; 
+}
+.section6 a:hover{
+    background-color: #E8F5E9;
+    background-position: left;
+}
+.vdosection5{
+    width: 326px;
+    height: 190px;
+}
+.vdosection6{
+    width: 326px;
+    height: 190px;    
+}   
+.section4{
+    width: 30%;
+    height: 350px;
+    background-color: #FBEBE2;
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 35px;
+    position: relative;
+}
+.section5{
+    width: 20%;
+    height: 350px;
+    background-color: #E8F5EF;
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 35px;
+    margin-left: 31px;
+}
+.section6{
+    width: 20%;
+    height: 350px;
+    background-color: #E0E5F5;
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 35px;
+    margin-left: 31px;
+}
+.shopall{
+    margin-left: 42%;
+    margin-top: 5%;
+}
+.midsection{
+    width: 100%;
+    margin-left: 0px;
+    position: relative;
+    margin-top: 150px;
+}
+.lastbanner1{
+    width: 100%;
+    height: 790px;
+    background-color: #E8F5E9;
+    position: absolute;
+    border-radius: 40px;
+}
+.lastbannervdo{
+    width: 626px;
+    height: 626px;
+    position: absolute;
+    margin-top: 102px;
+    margin-left: 750px;
+}
+.lsectxt{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 230px;
+}
+.lsectxt p{
+    font-size: 16px;
+    font-family: "GoogleSansRegular",sans-serif;
+    font-weight: 400;
+}
+.lsectxt p:nth-child(2){
+    font-size: 32px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.lbutton{
+    position: relative;
+}
+.lbutton p{
+    position: absolute;
+    border: 1px solid black;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 50px 15px 20px;
+    font-size: 16px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.lbutton img{
+    position: absolute;
+    height: 20px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.lbutton:hover p{
+    color: black;
+    background-position: left;
+}
+.lbutton:hover img{
+    filter: brightness(0%);
+    background-position: left;
+}
+.midsection1{
+    margin-top: 980px;
+    position: relative;
+}
+.midsecbanner1{
+    width: 100%;
+    height: 790px;
+    background-color: #E8F5E9;
+    position: absolute;
+    border-radius: 40px;
+}
+.midcoversection{
+    display: flex;
+    position: absolute;
+}
+.midsecvdo{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.midsectiontxt{
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    margin-top: 280px;
+}
+.midsectiontxt p sup{
+    font-size: 17px;
+    margin-top: -20px;
+}
+.lbutton1{
+    width: 600px;
+    position: relative;
+    margin-top: -20px; 
+}
+.lbutton1 p{
+    position: absolute;
+    border: 1px solid black;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 50px 15px 20px;
+    font-size: 16px;
+    font-family: "GoogleSansBold",sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.lbutton1 img{
+    position: absolute;
+    height: 20px;
+    margin-left: 220px;
+    margin-top: 32px;
+}
+.lbutton1:hover p{
+    color: black;
+    background-position: left;
+}
+.lbutton1:hover img{
+    filter: brightness(0%);
+    background-position: left;
+}
+.footer{
+    width: 100%;
+    height: 750px;
+    background-color: #F1F3F4;
+    margin-top: 122%;   
+    position: relative; 
+    overflow: hidden;
+}
+.footersec1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 10%;
+    top: 6%;
+}
+.footersec1 a{
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+    font-size: 23px;
+    color: black;
+}
+.footersec1 a:hover{
+    color: grey;
+}
+.footersec1 a:nth-child(2){
+    position: absolute;
+    left: 140%;
+}
+.footersec1 a:nth-child(3){
+    position: absolute;
+    left: 220%;
+}
+.footersec1 a:nth-child(4){
+    position: absolute;
+    left: 290%;
+}
+.footersec1 a:nth-child(5){
+    position: absolute;
+    left: 370%;
+}
+.footersec1 a:nth-child(6){
+    position: absolute;
+    left: 450%;
+} 
+.footborder1{
+    width: 100%;
+    position: absolute;
+    top: 140px;
+    border: 0.5px solid rgb(185, 180, 180);
+}
+.footsec2{
+    width: 100%;
+    position: absolute;
+    top: 20%; display: flex;
+}
+.footsec2in{
+    position: absolute;
+}
+.footsec2in1{
+    position: absolute;
+    left: 10%;
+}
+.footsec2 h4{
+    font-family: "GoogleSansBold",sans-serif;
+}
+.footsec2 p{
+    color: #615254;
+}
+.footsec2in2{
+    position: absolute;
+    left: 30%;
+}
+.footsec2in3{
+    position: absolute;
+    left: 50%;
+}
+.footsec2in4{
+    position: absolute;
+    left: 72%;
+}
+.footsec2in4 a:hover .icon1{
+    animation: move-up-disappear 0.4s ease-in-out;   
+}
+.footsec2in4 a:not(:hover) .icon1{
+    animation: move-down-disappear 0.4s ease-in-out;   
+}
+.footsec2in4 a:hover .icon2{
+    animation: move-up-disappear 0.4s ease-in-out;   
+}
+.footsec2in4 a:not(:hover) .icon2{
+    animation: move-down-disappear 0.4s ease-in-out;   
+}
+.footsec2in4 a:hover .icon3{
+    animation: move-up-disappear 0.4s ease-in-out;   
+}
+.footsec2in4 a:not(:hover) .icon3{
+    animation: move-down-disappear 0.4s ease-in-out;   
+}
+.footsec2in5 a:hover .icon4{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in5 a:not(:hover) .icon4{
+    animation: move-down-disappear 0.4s ease-in-out;  
+}
+.footsec2in6 a:hover .icon5{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in6 a:not(:hover) .icon5{
+    animation: move-down-disappear 0.4s ease-in-out;  
+}
+.footsec2in6 a:hover .icon6{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in6 a:not(:hover) .icon6{
+    animation: move-down-disappear 0.4s ease-in-out;  
+}
+.footsec2in6 a:hover .icon7{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in6 a:not(:hover) .icon7{
+    animation: move-down-disappear 0.4s ease-in-out;  
+}
+.footsec2in7 a:hover .icon8{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in7 a:not(:hover) .icon8{
+    animation: move-down-disappear 0.4s ease-in-out;
+}
+.footsec2in7 a:hover .icon9{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in7 a:not(:hover) .icon9{
+    animation: move-down-disappear 0.4s ease-in-out;
+}
+.footsec2in7 a:hover .icon10{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in7 a:not(:hover) .icon10{
+    animation: move-down-disappear 0.4s ease-in-out;
+}
+.footsec2in7 a:hover .icon11{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+.footsec2in7 a:not(:hover) .icon11{
+    animation: move-down-disappear 0.4s ease-in-out;
+}
+.footsec2in4 svg{
+    position: absolute;
+    margin-left: 10px;
+}
+.footsec2 a{
+    text-decoration: none;
+}
+.footsec2 a:hover{
+    text-decoration: underline;
+}
+.footsec2part1{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 45%;
+}
+.footsec2in5{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.footsec2in6{
+    position: absolute;
+    left: 30%;
+}
+.footsec2in7{
+    position: absolute;
+    left: 50%;
+}
+.footsec2in8{
+    position: absolute;
+    left: 70%;
+}
+.footsec2part1 p{
+    color: #615254;
+}
+.footsec2part1 h4{
+    font-family: "GoogleSansBold",sans-serif;
+}
+.footsec2part1 a{
+    text-decoration: none;
+}
+.footsec2part1 a:hover{
+    text-decoration: underline;
+}
+.footborder2{
+    width: 100%;
+    position: absolute;
+    top: 620px;
+    border: 0.5px solid rgb(185, 180, 180);
+}
+.footersec3{
+    position: absolute;
+    top: 87%;
+    align-items: center;   
+}
+.footsec3in8{
+    float: left;
+}
+.footsec3in8 p{
+    color: #9d9697;
+    padding: 10px 10px 10px 150px;
+    margin-top: -20px;
+    line-height: 24px;
+    font-family: "RobotoRegular";
+    font-size: 12px;
+}
+.Privacypolicy{
+    float: left;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.Privacypolicy p:hover{
+    color: grey;
+}
+.Privacypolicy:hover i{
+    animation: move-up-disappear 0.4s ease-in-out;  
+}
+@keyframes move-up-disappear {
+    0% {
+      transform: translateY(0) rotate(45deg); /* Rotate the arrow sideways */
+      
+      opacity: 1;
+    }
+    50% {
+        transform: translate(10px, -10px) rotate(45deg);
+
+      opacity: 0;
+    }
+    60% {
+       transform: translate(-10px, 10px) rotate(45deg);
+        opacity: 0;
+    }
+    100% {
+      transform: translateY(0) rotate(45deg); /* Return to original sideways position */
+      opacity: 1;
+    }
+}   
+.Privacypolicy:not(:hover) i{
+    animation: move-down-disappear 0.4s ease-in-out;
+}
+@keyframes move-down-disappear {
+    0% {
+        transform: translateY(0) rotate(45deg); /* Rotate the arrow sideways */
+        
+        opacity: 1;
+      }
+      50% {
+          transform: translate(-10px, 10px) rotate(45deg);
+  
+        opacity: 0;
+      }
+      60% {
+         transform: translate(10px, -10px) rotate(45deg);
+          opacity: 0;
+      }
+      100% {
+        transform: translateY(0) rotate(45deg); /* Return to original sideways position */
+        opacity: 1;
+      }
+} 
+.Privacypolicy a{
+    text-decoration: none;
+}
+.Privacypolicy p{
+    color: rgb(104, 97, 97);
+    font-family: "GoogleSansRegular",sans-serif;
+}
+.enlanguage{
+    float: left;
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: "GoogleSansRegular",sans-serif;
+    border-bottom: 1px solid grey;
+    line-height: 2px;
+}
+.enlanguage:hover p{
+    color: grey;
+}
+.enlanguage p{
+    color: rgb(104, 97, 97);
+    font-family: "GoogleSansRegular",sans-serif;
+}
+.enlanguage a{
+    text-decoration: none;
+    float: left;
+}
+.enlanguage i{
+    width: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.enlanguage img{
+    width: 20px;
+    float: left;
+    margin-top: 8px;
+}
+.android-footer_bottom{
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+}
+.android-footer_bottom img{
+    width: 84px;
+    height: 43px;  
+}
